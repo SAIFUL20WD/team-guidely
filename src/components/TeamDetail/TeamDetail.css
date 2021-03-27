@@ -1,0 +1,57 @@
+.team-badge {
+  width: 200px;
+  margin: auto;
+  padding-top: 100px;
+}
+.team-badge img {
+  width: 100%;
+}
+.team-overview {
+  padding: 50px 0px;
+  background-color: #081822;
+  color: #fff;
+}
+.social-icon {
+  font-size: 35px;
+  text-align: center;
+  margin: auto;
+}
+.social-icon a {
+  text-decoration: none;
+  color: #fff;
+}
+.team-card {
+  max-width: 1150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3a42ff;
+  padding: 20px;
+  margin: 10px 100px;
+  border-radius: 10px;
+}
+.team-description {
+  max-width: 1180px;
+  text-align: justify;
+  margin: 30px 100px;
+  color: #c6c6c6;
+}
+.gender {
+  width: 40%;
+}
+.gender img {
+  width: 100%;
+}
+
+@media (max-width: 720px) {
+    .team-card {
+        flex-direction: column;
+        margin: 10px 30px;
+    }
+    .gender {
+        width: 90%;
+    }
+    .team-description {
+        margin: 10px 20px;
+    }
+}
