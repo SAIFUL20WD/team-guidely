@@ -12,6 +12,7 @@
     width: 100%;
 }
 .explore-btn {
+    cursor: pointer;
     background-color: #3f0df1;
     color: #fff;
     padding: 14px 18px;
